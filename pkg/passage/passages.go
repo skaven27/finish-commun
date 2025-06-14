@@ -1,5 +1,3 @@
-package type
-
 package passage
 
 import (
@@ -74,4 +72,3 @@ func (dh DHDateTimeUTC) Format(s string) string {
 	t := time.Time(dh)
 	return t.Format(s)
 }
-
